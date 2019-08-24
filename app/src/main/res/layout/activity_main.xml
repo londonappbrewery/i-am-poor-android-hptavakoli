@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/mainActivityBG"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
@@ -17,4 +19,13 @@
         android:layout_marginTop="15dp"
         android:textSize="30sp"
         android:text="@string/app_title" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/main_image_description"
+        app:srcCompat="@drawable/coal" />
 </RelativeLayout>

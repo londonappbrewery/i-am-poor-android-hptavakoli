@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">I Am Poor</string>
-    <string name="app_title">I am Pourtavakoli!</string>
+    <string name="app_name">I am</string>
+    <string name="app_title">I am hptavakoli!</string>
+    <string name="main_image_description">Main Image comes here</string>
 </resources>
